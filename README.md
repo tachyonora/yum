@@ -34,7 +34,7 @@ cp ./yum ~/.local/bin/yum
 #### Running automatically with nix
 
 ```sh
-nix run gitlab:tachyonora/yum
+nix run github:tachyonora/yum
 ```
 
 #### Installing with flake
@@ -43,7 +43,7 @@ First, add this to your flake inputs:
 
 ```nix
 yum = {
-    url = "gitlab:tachyonora/yum";
+    url = "github:tachyonora/yum";
     inputs.nixpkgs.follows = "nixpkgs";
 };
 ```
