@@ -10,7 +10,7 @@
 ### Building
 
 ```sh
-git clone https://gitlab.com/tachyonora/yum.git
+git clone https://github.com/tachyonora/yum.git
 cd yum
 make
 ```
